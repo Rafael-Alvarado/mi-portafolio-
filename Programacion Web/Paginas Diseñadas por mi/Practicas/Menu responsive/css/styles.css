@@ -1,0 +1,45 @@
+nav{
+    background-color: aquamarine;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+.btn-menu{
+    display: none;
+}
+.btn{
+    background-color: azure;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: darkslategray;
+    border:1px solid rgb(182, 162, 162);
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(177, 212, 212);
+}
+@media(max-width:600px){
+    nav{
+        flex-direction: column;
+        background-color: black;
+        
+    }
+    .btn{
+        border-radius: 0px;
+        margin: 4px;
+    }
+    .desaparece{
+        display: none
+    }
+    .btn-menu{
+        background-color: azure;
+        padding: 10px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        color: darkslategray;
+        border:1px solid rgb(182, 162, 162);
+    }
+}

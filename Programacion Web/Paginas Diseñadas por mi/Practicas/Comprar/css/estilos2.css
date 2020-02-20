@@ -1,0 +1,39 @@
+.padre{
+    display: flex;
+    margin-left: 30px ;
+    margin-right: 30px ;
+}
+.card{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: rgba(235, 232, 232, 0.774);
+    box-shadow: 10px 10px 10px rgba(78, 77, 77, 0.411);
+    box-sizing: border-box;
+    width: 25%;
+    height: auto;
+    align-self: stretch;
+}
+.precio{
+    font-size: 40px;
+    color: rgb(11, 235, 255);
+}
+.btn{
+    background: salmon;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.btn:hover{
+    background: rgb(241, 190, 184);
+}
+@media(max-width:900px){
+    .card{
+        width: 45%;
+    }
+}
